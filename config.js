@@ -5,13 +5,10 @@ import fs from 'fs'
 
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['34642467703', '👑 Mystic - Collaborator 1 👑', true],
-  ['5219991402134', '🤖 Mystic - Bot 🤖', true],
-  ['5219996125657']
+  ['18299416234', 'StevenD', true]
 ] // Cambia los numeros que quieras
-global.mods = [] 
-global.prems = [] 
+global.mods = []
+global.prems = []
 global.APIs = { // API Prefix
   // name: 'https://website'
   amel: 'https://melcanz.com',
@@ -26,7 +23,7 @@ global.APIs = { // API Prefix
   zahir: 'https://zahirr-web.herokuapp.com',
   zeks: 'https://api.zeks.me',
   hardianto: 'https://hardianto-chan.herokuapp.com',
-  pencarikode: 'https://pencarikode.xyz', 
+  pencarikode: 'https://pencarikode.xyz',
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
   adiisus: 'https://adiixyzapi.herokuapp.com',
   lol: 'https://api.lolhuman.xyz',
@@ -54,8 +51,8 @@ global.APIKeys = { // APIKey Here
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
   'https://api.zeks.me': 'apivinz',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
-  'https://pencarikode.xyz': 'pais', 
-  'https://leyscoders-api.herokuapp.com': 'MIMINGANZ', 
+  'https://pencarikode.xyz': 'pais',
+  'https://leyscoders-api.herokuapp.com': 'MIMINGANZ',
   'https://server-api-rey.herokuapp.com': 'apirey',
   'https://api.lolhuman.xyz': '9b817532fadff8fc7cb86862',
   'https://botstyle-api.herokuapp.com': 'Eyar749L',
@@ -66,17 +63,17 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.author = 'BENDER-BOT'
 
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.wm = 'BENDER-BOT'
+global.igfg = 'BENDER-BOT'
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
-global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
+global.imagen2 = fs.readFileSync('./src/nuevobot.jpg')
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 
-global.multiplier = 9999 
+global.multiplier = 9999
 
 global.rpg = {
   emoticon(string) {
